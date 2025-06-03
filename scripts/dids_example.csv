@@ -1,0 +1,9 @@
+# Example DID file
+# Format: number,country,city
+18001234567,US,New York
+18001234568,US,New York
+18001234569,US,Los Angeles
+18009876543,US,Chicago
+18009876544,US,Chicago
+18005551234,CA,Toronto
+18005551235,CA,Toronto

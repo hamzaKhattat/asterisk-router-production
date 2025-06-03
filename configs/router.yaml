@@ -1,0 +1,25 @@
+# Asterisk Router Configuration
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: temppass
+  name: asterisk_router
+
+agi:
+  port: 8002
+
+ami:
+  host: localhost
+  port: 5038
+  username: admin
+  password: admin
+
+logging:
+  level: debug
+  file: /var/log/asterisk-router.log
+
+loadbalancer:
+  health_check_interval: 30s
+  max_failures: 5
+  recovery_time: 5m
